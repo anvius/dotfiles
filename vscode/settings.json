@@ -1,0 +1,50 @@
+// Coloque su configuración en este archivo para sobrescribir la configuración predeterminada.
+{
+  // Controla la familia de fuentes.
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": true,
+
+  // Minimap
+  "editor.minimap.enabled": true,
+
+  // Drag and Drop
+  "editor.dragAndDrop": true,
+
+  // Autoformateo
+  "editor.formatOnSave": false,
+
+  // Indentación
+  "editor.tabSize": 2,
+
+  // Mostrar caracteres ocultos
+  "editor.renderWhitespace": "boundary",
+  "editor.renderControlCharacters": true,
+
+  // Diff con espacios
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  // Controla la altura de línea.
+  "editor.lineHeight": 20,
+  
+  // Anular presentación
+  "workbench.welcome.enabled": false,
+
+  // Autoacutalizar extensiones
+  "extensions.autoUpdate": false,
+
+  // Telemetría
+  "telemetry.enableTelemetry": false,
+
+  // Iconos de ficheros
+  "workbench.iconTheme": "file-icons",
+
+  // Go
+  "go.lintOnSave": true,
+  "go.vetOnSave": true,
+  "go.lintTool": "golint",
+  "go.useCodeSnippetsOnFunctionSuggest": false,
+  "go.formatOnSave": true, 
+  "go.formatTool": "goreturns",
+  "workbench.colorTheme": "Monokai",
+ }
